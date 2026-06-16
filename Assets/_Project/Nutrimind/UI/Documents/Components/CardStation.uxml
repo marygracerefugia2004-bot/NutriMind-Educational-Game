@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- CardStation — reusable station/level card template -->
+    <ui:Button class="nm-card-station" focusable="true">
+        <ui:Label name="station-number" class="nm-heading-3" text="1" style="color: var(--nm-color-primary); -unity-text-align: middle-center;" />
+        <ui:Label name="station-name" class="nm-caption" text="Station" style="margin-top: var(--nm-space-xs); -unity-text-align: middle-center;" />
+    </ui:Button>
+</ui:UXML>

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Loading Overlay — reusable template for loading states -->
+    <ui:VisualElement class="nm-loading-overlay">
+        <ui:VisualElement class="nm-column-center">
+            <ui:VisualElement class="nm-spinner" />
+            <ui:Label name="loading-message" class="nm-body-secondary" style="margin-top: 12px;" text="Loading..." />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

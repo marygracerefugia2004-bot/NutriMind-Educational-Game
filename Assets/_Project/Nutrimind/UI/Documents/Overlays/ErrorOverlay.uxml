@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Error Overlay — reusable template for error states -->
+    <ui:VisualElement class="nm-overlay">
+        <ui:VisualElement class="nm-dialog">
+            <ui:Label name="error-icon" class="nm-reward-icon" text="!" style="color: var(--nm-color-error); font-size: 48px; -unity-text-align: middle-center;" />
+            <ui:Label name="error-title" class="nm-dialog-title" text="Something went wrong" style="-unity-text-align: middle-center;" />
+            <ui:Label name="error-body" class="nm-dialog-body" text="An unexpected error occurred. Please try again." style="-unity-text-align: middle-center;" />
+            <ui:VisualElement name="error-actions" class="nm-dialog-actions" style="justify-content: center;">
+                <ui:Button name="error-retry-button" class="nm-btn nm-btn-primary" text="Retry" />
+                <ui:Button name="error-dismiss-button" class="nm-btn nm-btn-ghost" text="Dismiss" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

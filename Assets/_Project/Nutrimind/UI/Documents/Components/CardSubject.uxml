@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- CardSubject — reusable subject selection card template -->
+    <ui:Button class="nm-card-subject" focusable="true">
+        <ui:VisualElement name="subject-icon" class="nm-empty-icon" />
+        <ui:Label name="subject-name" class="nm-heading-4" text="Subject" style="margin-top: var(--nm-space-sm); -unity-text-align: middle-center;" />
+        <ui:Label name="subject-progress" class="nm-caption" text="0 / 0" style="-unity-text-align: middle-center;" />
+    </ui:Button>
+</ui:UXML>

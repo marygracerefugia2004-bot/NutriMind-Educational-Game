@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- SettingsRow — reusable settings row item template -->
+    <ui:Button class="nm-settings-row" focusable="true">
+        <ui:Label name="settings-row-label" class="nm-settings-row-label" text="Setting" />
+        <ui:VisualElement name="settings-row-control" class="nm-settings-row-value" />
+    </ui:Button>
+</ui:UXML>

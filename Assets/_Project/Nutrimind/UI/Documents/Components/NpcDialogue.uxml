@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- NPC Dialogue — reusable template for NPC dialogue display -->
+    <ui:VisualElement class="nm-npc-dialogue" focusable="true">
+        <ui:VisualElement name="npc-portrait" class="nm-npc-portrait" />
+        <ui:VisualElement class="nm-column nm-grow">
+            <ui:Label name="npc-name" class="nm-heading-4 nm-npc-name" text="NPC Name" />
+            <ui:Label name="npc-dialogue-text" class="nm-body" text="Dialogue text goes here." />
+            <ui:Button name="npc-dismiss-button" class="nm-btn nm-btn-ghost nm-mt-sm" text="Dismiss" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

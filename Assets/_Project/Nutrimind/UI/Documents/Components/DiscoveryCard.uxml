@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Discovery Card — reusable template for discovery/fact cards -->
+    <ui:VisualElement class="nm-discovery" focusable="true">
+        <ui:VisualElement name="discovery-icon" class="nm-discovery-icon" />
+        <ui:Label name="discovery-title" class="nm-heading-4" text="Discovery Title" />
+        <ui:Label name="discovery-text" class="nm-body" text="Discovery text goes here." />
+        <ui:Button name="discovery-dismiss-button" class="nm-btn nm-btn-ghost nm-mt-sm" text="Dismiss" />
+    </ui:VisualElement>
+</ui:UXML>

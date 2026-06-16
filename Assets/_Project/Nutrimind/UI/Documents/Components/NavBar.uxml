@@ -1,0 +1,13 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="nm-navbar">
+        <ui:Button name="navbar-back-button"
+            class="nm-navbar-back nm-btn nm-btn-ghost"
+            text="&lt;"
+            tooltip="Go back" />
+        <ui:Label name="navbar-title"
+            class="nm-navbar-title nm-heading-4"
+            text="Screen Title" />
+        <ui:VisualElement name="navbar-actions"
+            class="nm-navbar-actions" />
+    </ui:VisualElement>
+</ui:UXML>

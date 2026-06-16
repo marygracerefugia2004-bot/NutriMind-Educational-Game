@@ -1,0 +1,19 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="nm-screen">
+        <ui:VisualElement name="screen-header"
+            class="nm-screen-header">
+            <ui:Label name="screen-title"
+                class="nm-screen-header-title"
+                text="Screen" />
+        </ui:VisualElement>
+        <ui:ScrollView name="screen-body"
+            class="nm-screen-body"
+            mode="Vertical">
+            <ui:VisualElement name="screen-content"
+                class="nm-grow" />
+        </ui:ScrollView>
+        <ui:VisualElement name="screen-footer"
+            class="nm-screen-footer"
+            style="display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

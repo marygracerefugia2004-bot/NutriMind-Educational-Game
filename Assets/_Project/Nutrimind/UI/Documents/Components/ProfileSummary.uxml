@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- ProfileSummary — reusable player summary panel template -->
+    <ui:VisualElement class="nm-profile-summary">
+        <ui:VisualElement name="profile-avatar" class="nm-profile-avatar" />
+        <ui:VisualElement class="nm-profile-info">
+            <ui:Label name="profile-name" class="nm-profile-name" text="Player Name" />
+            <ui:Label name="profile-detail" class="nm-profile-detail" text="Level 1" />
+        </ui:VisualElement>
+        <ui:VisualElement name="profile-stats" class="nm-row" />
+    </ui:VisualElement>
+</ui:UXML>

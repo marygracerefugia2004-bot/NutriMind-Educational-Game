@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Mission Brief Overlay — reusable template for mission briefings -->
+    <ui:VisualElement class="nm-overlay">
+        <ui:VisualElement class="nm-mission-brief">
+            <ui:Label name="mission-npc-name" class="nm-body-secondary" text="NPC Name" />
+            <ui:Label name="mission-title" class="nm-heading-3" text="Mission Title" />
+            <ui:Label name="mission-description" class="nm-body" text="Mission description goes here." />
+            <ui:Label name="mission-objective" class="nm-body-small" text="Objective placeholder" />
+            <ui:VisualElement class="nm-row nm-justify-end nm-mt-lg">
+                <ui:Button name="mission-skip-button" class="nm-btn nm-btn-ghost" text="Skip" />
+                <ui:Button name="mission-begin-button" class="nm-btn nm-btn-primary nm-ml-sm" text="Begin" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

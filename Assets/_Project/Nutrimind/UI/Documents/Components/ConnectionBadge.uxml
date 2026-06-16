@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- ConnectionBadge — reusable connection status indicator template -->
+    <ui:VisualElement class="nm-connection-badge connected">
+        <ui:VisualElement class="nm-connection-badge-dot" />
+        <ui:Label name="connection-status-text" class="nm-caption" text="Connected" />
+    </ui:VisualElement>
+</ui:UXML>

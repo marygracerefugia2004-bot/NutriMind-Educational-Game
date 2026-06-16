@@ -1,0 +1,117 @@
+/* NutriMind Base Style Sheet */
+* {
+    --nm-color-primary: #4CAF50;
+    --nm-color-primary-dark: #388E3C;
+    --nm-color-primary-light: #C8E6C9;
+    --nm-color-secondary: #FF9800;
+    --nm-color-secondary-dark: #F57C00;
+    --nm-color-secondary-light: #FFE0B2;
+    --nm-color-accent: #2196F3;
+    --nm-color-accent-dark: #1976D2;
+    --nm-color-accent-light: #BBDEFB;
+    --nm-color-surface: #FFFFFF;
+    --nm-color-surface-alt: #F5F5F5;
+    --nm-color-background: #FAFAFA;
+    --nm-color-background-dark: #121212;
+    --nm-color-text-primary: #212121;
+    --nm-color-text-secondary: #616161;
+    --nm-color-text-disabled: #9E9E9E;
+    --nm-color-text-inverse: #FFFFFF;
+    --nm-color-border: #E0E0E0;
+    --nm-color-border-focus: #2196F3;
+    --nm-color-error: #E53935;
+    --nm-color-success: #43A047;
+    --nm-color-warning: #FB8C00;
+    --nm-color-info: #039BE5;
+    --nm-font-family: unity-font, -unity-standard, sans-serif;
+    --nm-font-size-h1: 32px;
+    --nm-font-size-h2: 28px;
+    --nm-font-size-h3: 24px;
+    --nm-font-size-h4: 20px;
+    --nm-font-size-body: 16px;
+    --nm-font-size-small: 14px;
+    --nm-font-size-caption: 12px;
+    --nm-font-size-button: 16px;
+    --nm-space-xxs: 2px;
+    --nm-space-xs: 4px;
+    --nm-space-sm: 8px;
+    --nm-space-md: 12px;
+    --nm-space-lg: 16px;
+    --nm-space-xl: 20px;
+    --nm-space-xxl: 24px;
+    --nm-space-huge: 32px;
+    --nm-space-massive: 40px;
+    --nm-radius-sm: 4px;
+    --nm-radius-md: 8px;
+    --nm-radius-lg: 12px;
+    --nm-radius-xl: 16px;
+    --nm-radius-round: 9999px;
+    --nm-touch-target: 48px;
+}
+
+.nm-heading-1 {
+    font-size: var(--nm-font-size-h1);
+    -unity-font-style: bold;
+    color: var(--nm-color-text-primary);
+}
+
+.nm-heading-2 {
+    font-size: var(--nm-font-size-h2);
+    -unity-font-style: bold;
+    color: var(--nm-color-text-primary);
+}
+
+.nm-heading-3 {
+    font-size: var(--nm-font-size-h3);
+    color: var(--nm-color-text-primary);
+}
+
+.nm-heading-4 {
+    font-size: var(--nm-font-size-h4);
+    color: var(--nm-color-text-primary);
+}
+
+.nm-body {
+    font-size: var(--nm-font-size-body);
+    color: var(--nm-color-text-primary);
+}
+
+.nm-body-secondary {
+    font-size: var(--nm-font-size-body);
+    color: var(--nm-color-text-secondary);
+}
+
+.nm-body-small {
+    font-size: var(--nm-font-size-small);
+    color: var(--nm-color-text-secondary);
+}
+
+.nm-caption {
+    font-size: var(--nm-font-size-caption);
+    color: var(--nm-color-text-disabled);
+}
+
+.nm-pad-xs { padding: var(--nm-space-xs); }
+.nm-pad-sm { padding: var(--nm-space-sm); }
+.nm-pad-md { padding: var(--nm-space-md); }
+.nm-pad-lg { padding: var(--nm-space-lg); }
+.nm-pad-xl { padding: var(--nm-space-xl); }
+.nm-pad-xxl { padding: var(--nm-space-xxl); }
+.nm-row { flex-direction: row; }
+.nm-column { flex-direction: column; }
+.nm-row-center { flex-direction: row; align-items: center; justify-content: center; }
+.nm-column-center { flex-direction: column; align-items: center; justify-content: center; }
+.nm-grow { flex-grow: 1; }
+.nm-shrink { flex-shrink: 1; }
+.nm-wrap { flex-wrap: wrap; }
+
+/* Margin / alignment utility classes (token-driven, lazily resolved on attach).
+   Used instead of inline style="...var(--nm-*)..." which crashes UI Toolkit
+   custom-property resolution during VisualTreeAsset.Instantiate(). */
+.nm-mt-xs { margin-top: var(--nm-space-xs); }
+.nm-mt-sm { margin-top: var(--nm-space-sm); }
+.nm-mt-md { margin-top: var(--nm-space-md); }
+.nm-mt-lg { margin-top: var(--nm-space-lg); }
+.nm-ml-sm { margin-left: var(--nm-space-sm); }
+.nm-justify-end { justify-content: flex-end; }
+.nm-text-center { -unity-text-align: middle-center; }

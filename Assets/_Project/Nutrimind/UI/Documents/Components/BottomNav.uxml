@@ -1,0 +1,7 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="nm-bottom-nav">
+        <ui:VisualElement name="bottom-nav-items"
+            class="nm-bottom-nav-items">
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

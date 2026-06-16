@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Hint Overlay — reusable template for hint displays -->
+    <ui:VisualElement class="nm-overlay">
+        <ui:VisualElement class="nm-hint">
+            <ui:Label name="hint-tier-label" class="nm-body-secondary" text="Hint 1/3" />
+            <ui:Label name="hint-title" class="nm-heading-4" text="Hint" />
+            <ui:Label name="hint-text" class="nm-body" text="Hint text goes here." />
+            <ui:Button name="hint-try-again-button" class="nm-btn nm-btn-primary nm-mt-lg" text="Try Again" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

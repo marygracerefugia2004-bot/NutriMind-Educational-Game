@@ -1,0 +1,6 @@
+.nm-screen { position: absolute; left: 0; right: 0; top: 0; bottom: 0; flex-direction: column; background-color: var(--nm-color-background); }
+.nm-screen-header { flex-direction: row; align-items: center; padding: var(--nm-space-md) var(--nm-space-lg); min-height: 56px; border-bottom-width: 1px; border-bottom-color: var(--nm-color-border); background-color: var(--nm-color-surface); }
+.nm-screen-header-title { font-size: var(--nm-font-size-h4); color: var(--nm-color-text-primary); flex-grow: 1; }
+.nm-screen-body { flex-grow: 1; padding: var(--nm-space-lg); }
+.nm-screen-footer { flex-direction: row; align-items: center; justify-content: flex-end; padding: var(--nm-space-md) var(--nm-space-lg); min-height: 48px; border-top-width: 1px; border-top-color: var(--nm-color-border); background-color: var(--nm-color-surface); }
+.nm-screen-footer .nm-btn { margin-left: var(--nm-space-sm); }

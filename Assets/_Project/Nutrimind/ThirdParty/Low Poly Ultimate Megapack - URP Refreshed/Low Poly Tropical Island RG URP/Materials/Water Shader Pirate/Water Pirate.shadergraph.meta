@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7a221b5b41d08414b99d177db1504fe4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 291854
+  packageName: Low Poly Ultimate Megapack - URP Refreshed
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Ultimate Megapack - URP Refreshed/Low Poly Tropical
+    Island RG URP/Materials/Water Shader Pirate/Water Pirate.shadergraph
+  uploadId: 681772

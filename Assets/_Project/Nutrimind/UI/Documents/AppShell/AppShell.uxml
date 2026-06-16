@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Foundation style sheets -->
+    <Style src="../../Styles/Base/Base.uss" />
+    <Style src="../../Styles/Components/Components.uss" />
+    <Style src="../../Styles/Screens/Screens.uss" />
+    <Style src="../../Styles/Accessibility/Accessibility.uss" />
+
+    <!-- Theme variables (must be last to override foundation defaults) -->
+    <Style src="../../Themes/NutriMindTheme.uss" />
+
+    <ui:VisualElement name="background-layer" class="nm-app-background" picking-mode="Ignore" />
+    <ui:VisualElement name="screen-layer" class="nm-app-screen" picking-mode="Position">
+        <ui:VisualElement name="screen-container" class="nm-grow" />
+    </ui:VisualElement>
+    <ui:VisualElement name="world-hud-layer" class="nm-app-world-hud" style="display: none;" picking-mode="Ignore" />
+    <ui:VisualElement name="modal-layer" class="nm-app-modal" style="display: none;" />
+    <ui:VisualElement name="blocking-layer" class="nm-app-blocking" style="display: none;" />
+    <ui:VisualElement name="toast-layer" class="nm-app-toast" style="display: none;" picking-mode="Ignore" />
+    <!-- Neutral status element. Screen-reader not implemented here. -->
+    <ui:Label name="accessibility-announcer" class="nm-sr-only" text="" />
+</ui:UXML>

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Reflection Overlay — reusable template for post-activity reflection -->
+    <ui:VisualElement class="nm-overlay">
+        <ui:VisualElement class="nm-reflection">
+            <ui:Label name="reflection-title" class="nm-heading-3" text="Reflection" />
+            <ui:Label name="reflection-question" class="nm-body" text="Reflection question goes here." />
+            <ui:VisualElement class="nm-row nm-justify-end nm-mt-lg">
+                <ui:Button name="reflection-skip-button" class="nm-btn nm-btn-ghost" text="Skip" />
+                <ui:Button name="reflection-continue-button" class="nm-btn nm-btn-primary nm-ml-sm" text="Continue" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

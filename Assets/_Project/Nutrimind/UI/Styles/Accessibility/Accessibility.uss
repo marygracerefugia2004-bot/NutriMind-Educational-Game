@@ -1,0 +1,54 @@
+*:focus { border-color: var(--nm-color-accent); border-width: 2px; }
+.nm-high-contrast * { border-width: 2px !important; }
+.nm-high-contrast .nm-btn { border-width: 2px !important; }
+.nm-high-contrast .nm-input { border-width: 2px !important; }
+
+/* Large-text mode — hierarchy-preserving scale, not a blanket override */
+.nm-large-text .nm-heading-1 { font-size: 36px !important; }
+.nm-large-text .nm-heading-2 { font-size: 32px !important; }
+.nm-large-text .nm-heading-3 { font-size: 28px !important; }
+.nm-large-text .nm-heading-4 { font-size: 24px !important; }
+.nm-large-text .nm-body { font-size: 20px !important; }
+.nm-large-text .nm-body-secondary { font-size: 20px !important; }
+.nm-large-text .nm-body-small { font-size: 18px !important; }
+.nm-large-text .nm-caption { font-size: 16px !important; }
+
+/* ---- Component-specific large-text overrides ---- */
+/* Title/heading-level classes — remain larger than body-ish classes */
+.nm-large-text .nm-screen-header-title { font-size: 24px !important; }
+.nm-large-text .nm-dialog-title { font-size: 28px !important; }
+.nm-large-text .nm-pin-field { font-size: 28px !important; }
+.nm-large-text .nm-empty-title { font-size: 24px !important; }
+.nm-large-text .nm-reward-title { font-size: 32px !important; }
+.nm-large-text .nm-reward-amount { font-size: 28px !important; }
+
+/* Body-ish classes — medium, between title and caption */
+.nm-large-text .nm-dialog-body { font-size: 20px !important; }
+.nm-large-text .nm-selection-control-label { font-size: 20px !important; }
+.nm-large-text .nm-profile-name { font-size: 20px !important; }
+.nm-large-text .nm-settings-row-label { font-size: 20px !important; }
+.nm-large-text .nm-settings-row-value { font-size: 20px !important; }
+.nm-large-text .nm-empty-message { font-size: 20px !important; }
+.nm-large-text .nm-reward-subtitle { font-size: 20px !important; }
+
+/* Small/detail classes — larger than caption, smaller than body */
+.nm-large-text .nm-field-label { font-size: 18px !important; }
+.nm-large-text .nm-error-box { font-size: 18px !important; }
+.nm-large-text .nm-profile-detail { font-size: 18px !important; }
+.nm-large-text .nm-feedback { font-size: 18px !important; }
+
+/* Caption/hint classes — smallest readable large-text tier */
+.nm-large-text .nm-field-hint { font-size: 16px !important; }
+.nm-large-text .nm-field-error { font-size: 16px !important; }
+.nm-large-text .nm-connection-badge { font-size: 16px !important; }
+
+.nm-reduced-motion * { transition-duration: 0s !important; }
+.nm-sr-only { position: absolute; left: -9999px; width: 1px; height: 1px; }
+.nm-touch-android-landscape .nm-btn { min-height: 56px; min-width: 56px; }
+.nm-touch-android-landscape .nm-input { min-height: 56px; }
+
+/* Safe-area helper classes — applied at runtime via NutriMindSafeAreaUtility */
+.nm-safe-area-left { padding-left: var(--nm-safe-area-left, 0px); }
+.nm-safe-area-right { padding-right: var(--nm-safe-area-right, 0px); }
+.nm-safe-area-top { padding-top: var(--nm-safe-area-top, 0px); }
+.nm-safe-area-bottom { padding-bottom: var(--nm-safe-area-bottom, 0px); }

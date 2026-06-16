@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- CardTerm — reusable term selection card template -->
+    <ui:Button class="nm-card-term" focusable="true">
+        <ui:Label name="term-name" class="nm-heading-4" text="Term" style="-unity-text-align: middle-center;" />
+        <ui:Label name="term-dates" class="nm-caption" text="Jan - Jun" style="margin-top: var(--nm-space-xs); -unity-text-align: middle-center;" />
+    </ui:Button>
+</ui:UXML>

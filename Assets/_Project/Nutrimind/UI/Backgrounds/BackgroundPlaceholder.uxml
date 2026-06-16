@@ -1,0 +1,9 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="background-placeholder"
+        class="nm-background-placeholder"
+        picking-mode="Ignore">
+        <ui:Label text=""
+            class="nm-background-placeholder-label"
+            picking-mode="Ignore" />
+    </ui:VisualElement>
+</ui:UXML>

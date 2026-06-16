@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Dialog Overlay — reusable template for modal dialogs -->
+    <ui:VisualElement class="nm-overlay">
+        <ui:VisualElement class="nm-dialog">
+            <ui:Label name="dialog-title" class="nm-dialog-title" text="Dialog Title" />
+            <ui:Label name="dialog-body" class="nm-dialog-body" text="Dialog message goes here." />
+            <ui:VisualElement name="dialog-actions" class="nm-dialog-actions">
+                <ui:Button name="dialog-cancel-button" class="nm-btn nm-btn-secondary" text="Cancel" />
+                <ui:Button name="dialog-confirm-button" class="nm-btn nm-btn-primary" text="Confirm" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

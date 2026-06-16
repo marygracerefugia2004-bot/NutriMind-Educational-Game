@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Feedback Panel — reusable template for answer feedback -->
+    <ui:VisualElement class="nm-feedback-panel" focusable="true">
+        <ui:VisualElement name="feedback-icon" class="nm-feedback-panel-icon" />
+        <ui:Label name="feedback-title" class="nm-heading-4" text="Feedback Title" />
+        <ui:Label name="feedback-message" class="nm-body" text="Feedback message goes here." />
+        <ui:VisualElement class="nm-row nm-justify-end nm-mt-md">
+            <ui:Button name="feedback-retry-button" class="nm-btn nm-btn-secondary" text="Retry" />
+            <ui:Button name="feedback-continue-button" class="nm-btn nm-btn-primary nm-ml-sm" text="Continue" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

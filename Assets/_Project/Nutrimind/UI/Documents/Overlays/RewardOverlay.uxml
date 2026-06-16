@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- Reward Overlay — reusable template for reward celebrations -->
+    <ui:VisualElement class="nm-overlay">
+        <ui:VisualElement class="nm-reward">
+            <ui:VisualElement name="reward-icon" class="nm-reward-icon" />
+            <ui:Label name="reward-title" class="nm-reward-title" text="Great Job!" />
+            <ui:Label name="reward-subtitle" class="nm-reward-subtitle" text="You earned" />
+            <ui:Label name="reward-amount" class="nm-reward-amount" text="+50 XP" />
+            <ui:Button name="reward-continue-button" class="nm-btn nm-btn-primary nm-mt-md" text="Continue" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
